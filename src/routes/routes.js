@@ -25,22 +25,22 @@ const routes = [
     children: [
       {
         path: 'overview',
-        name: 'Overview',
+        name: 'Dashbord',
         component: Overview
       },
       {
         path: 'user',
-        name: 'User',
+        name: 'Billing',
         component: UserProfile
       },
       {
         path: 'table-list',
-        name: 'Table List',
+        name: 'Automation',
         component: TableList
       },
       {
         path: 'typography',
-        name: 'Typography',
+        name: 'Architecture',
         component: Typography
       },
       {
